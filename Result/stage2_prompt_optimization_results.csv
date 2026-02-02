@@ -1,0 +1,51 @@
+query_id,original_query,optimized_query,original_tokens,optimized_tokens,token_reduction_%
+0,What is considered a business expense on a business trip?,List business trip expenses.,11,5,54.55
+4,Business Expense - Car Insurance Deductible For Accident That Occurred During a Business Trip,Calculate car insurance deductible for accident during business trip expense,17,10,41.18
+5,Starting a new online business,Launch an online business,5,4,20.0
+6,“Business day” and “due date” for bills,"Determine ""business days"" and ""due dates"" for bills.",11,14,-27.27
+7,New business owner - How do taxes work for the business vs individual?,How do taxes differ for a business versus an individual?,14,11,21.43
+9,Hobby vs. Business,Business or Hobby? Classify Now,5,7,-40.0
+11,Personal checks instead of business ones,Use personal checks instead of business ones.,6,8,-33.33
+12,Does U.S. tax code call for small business owners to count business purchases as personal income?,Does U.S. tax code require small business owners to report business purchases as personal income?,19,18,5.26
+13,How can I register a UK business without providing a business address?,Register a UK business without a business address: Possible methods?,13,12,7.69
+14,What are 'business fundamentals'?,Understand business fundamentals.,6,5,16.67
+16,Business Investment Loss from prior year,Report Prior Year Business Investment Losses,6,7,-16.67
+19,How can I estimate business taxes / filing fees for a business that has $0 income?,Estimate taxes/fees for zero-income business.,18,11,38.89
+20,Would the purchase of a car for a business through the use of a business loan be considered a business expense?,Is purchasing a car for a business using a business loan considered a business expense?,22,16,27.27
+21,Deducting last years (undocumented) side business loss,Deduct side business loss from last year's income,12,10,16.67
+23,30% share in business,Invest 30% of the business,5,7,-40.0
+25,Claiming business expense from personal credit card,Submit business expenses from personal credit card,8,7,12.5
+27,Using business check to pay at retail,Pay retail using business check,7,5,28.57
+28,Tax whilst starting a business in full time employment,Start a business while employed? Understand tax implications.,9,10,-11.11
+30,Can I pay off my credit card balance to free up available credit?,Pay off your credit card balance to increase available credit.,14,11,21.43
+31,Starting a side business slowly,Start a side business gradually.,5,6,-20.0
+32,Why is “cheque cashing” a legitimate business?,"Legitimacy of ""Cheque Cashing"" as Business: Explain",12,15,-25.0
+33,Is business the only way to become a millionaire?,Are there other ways to become a millionaire besides owning a business?,10,13,-30.0
+35,Valuing a small business to invest in,Assess small business value for investment,8,7,12.5
+36,Starting a large business with a not so large income?,Starting large business on limited income?,11,7,36.36
+37,Requirements for filing business taxes?,File business taxes requirements,6,4,33.33
+41,IRA for work and my business,Open IRA for both work and business,6,7,-16.67
+43,Advice on money transfer business,Transfer Money Business Guidance,5,4,20.0
+45,How to transfer personal auto lease to business auto lease?,Transfer personal auto lease to business auto lease: Steps & Requirements,11,12,-9.09
+46,Tutoring Business Payroll Management,Manage payroll for tutoring business,7,5,28.57
+47,"As a small business owner, should I pay my taxes from my personal or business checking account?",Pay taxes from your business checking account.,19,8,57.89
+48,Should my husband's business pay my business?,Pay your husband's business for services rendered by yours.,9,11,-22.22
+49,Why can't online transactions be completed outside of business hours?,Online transactions cannot be completed outside of business hours due to banking systems being offline.,12,16,-33.33
+51,Full-time work + running small side business: Best business structure for taxes?,What's the optimal business structure for tax purposes when working full-time and operating a side business?,15,19,-26.67
+52,"New vending route business, not sure how to determine taxes",Determine taxes for new vending route business.,11,9,18.18
+53,Finding a good small business CPA?,Find a reliable small business CPA.,7,7,0.0
+54,Taxable income on full-time job + business earnings,Calculate total taxable income (full-time job + business),10,11,-10.0
+57,How can I lookup the business associated with a FEIN?,Look up business by FEIN.,12,7,41.67
+59,Tax Allocation - Business Asset Transfer,Allocate Taxes for Business Asset Transfer,6,6,0.0
+61,How to Deduct Family Health Care Premiums Under Side Business,Deduct family health care premiums under side business: Methods,12,11,8.33
+62,Claiming car as a business expense in the UK,Claim car expenses (UK),10,6,40.0
+63,Do I need to keep paper records for my business?,Maintain paper records for your business.,11,8,27.27
+64,1040 Schedule A Un-Reimbursed Business Expense Reporting,Submit 1040 Schedule A for Unreimbursed Business Expenses,11,13,-18.18
+65,Why do banks require small businesses to open a business bank account instead of a cheaper personal one?,"Banks require small businesses to open a business bank account due to regulatory and liability reasons, not for cost efficiency.",19,23,-21.05
+66,"How to treat miles driven to the mechanic, gas station, etc when calculating business use of car?","Calculate business miles excluding trips to mechanic, gas station.",20,11,45.0
+67,value of guaranteeing a business loan,Guarantee business loan value? Determine loan value given guarantee.,7,13,-85.71
+69,Deducting business expenses paid for by gift card,Deduct business expenses using gift card payments,10,8,20.0
+70,"Car as business expense, but not because of driving","Business use of car, not for driving purposes.",10,10,0.0
+71,Can a business refuse to take credit cards?,"Yes, a business can choose not to accept credit card payments.",9,13,-44.44
+72,Calculate Estimated Tax on Hobby Business LLC,Calculate hobby business LLC tax estimate,7,6,14.29
+74,Buying car from rental business without title,"Purchase vehicle directly from rental company, no title required.",7,11,-57.14

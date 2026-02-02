@@ -1,0 +1,11 @@
+query_id,original_query,optimized_query,original_tokens,optimized_tokens,token_reduction_%
+0,What is considered a business expense on a business trip?,Business travel costs as deductible expenses?,11,7,36.36
+4,Business Expense - Car Insurance Deductible For Accident That Occurred During a Business Trip,Car insurance deductible for business trip accident claim?,17,9,47.06
+5,Starting a new online business,Starting a new online business,5,5,0.0
+6,“Business day” and “due date” for bills,"""Bill due dates on business days.""",11,8,27.27
+7,New business owner - How do taxes work for the business vs individual?,How do business and personal taxation differ?,14,8,42.86
+9,Hobby vs. Business,Hobby vs. Business,5,5,0.0
+11,Personal checks instead of business ones,Personal checks instead of business ones,6,6,0.0
+12,Does U.S. tax code call for small business owners to count business purchases as personal income?,"""Do I need to report my business expenses on personal taxes in the US?""",19,15,21.05
+13,How can I register a UK business without providing a business address?,"""Can one establish a UK company with no fixed location?""",13,12,7.69
+14,What are 'business fundamentals'?,Define business fundamentals?,6,4,33.33
