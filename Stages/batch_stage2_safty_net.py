@@ -7,7 +7,7 @@ from optimizer.token_utils import count_tokens
 MAX_QUERIES = 10
 results = []
 
-# This is the "Secret Sauce" to fix your project goal without touching the Node file
+# This is the important to fix our project goal 
 OPTIMIZATION_INSTRUCTION = "Task: Shorten the following prompt to be highly token-efficient. Keep only the core intent. Do NOT answer it. Prompt: "
 
 with open("data/queries.json", "r") as f:
@@ -17,8 +17,8 @@ with open("data/queries.json", "r") as f:
         query_data = json.loads(line)
         original_text = query_data["text"]
 
-        # 🚀 WE INJECT THE INSTRUCTION HERE
-        # This forces your 'Stage 3' node to act like a 'Stage 2' optimizer
+        #  WE INJECT THE INSTRUCTION HERE
+        # This forces 'Stage 3' node to act like a 'Stage 2' optimizer
         forced_optimization_input = f"{OPTIMIZATION_INSTRUCTION} '{original_text}'"
 
         output = graph.invoke({
