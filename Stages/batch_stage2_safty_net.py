@@ -22,7 +22,7 @@ with open("data/queries.json", "r") as f:
             / output["original_tokens"] * 100
         )
 
-        # 🔒 SAFETY CHECK: Do not optimize if tokens increase
+        #  SAFETY CHECK: Do not optimize if tokens increase
         if token_reduction < 0:
             final_optimized_query = output["original_prompt"]
             final_optimized_tokens = output["original_tokens"]
