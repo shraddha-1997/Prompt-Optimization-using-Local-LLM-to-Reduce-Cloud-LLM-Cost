@@ -39,21 +39,21 @@ The Technical Workflow:
 Project structure:
 .
 ├── data/  
-│ └──queries.json
+│└─queries.json
 │  
-├── optimizer/  
-│ ├── optimizer_node.py  
-│ ├──prompt_templates.py
-│ └── token_utils.py  
+├─ optimizer/  
+│├── optimizer_node.py  
+│├──prompt_templates.py
+│└── token_utils.py  
 │  
 ├── stages/  
-│ ├── batch_stage1.py
-│ ├── batch_stage2_safety_net.py
-│ └── batch_stage3.py
+│├── batch_stage1.py
+│├── batch_stage2_safety_net.py
+│└── batch_stage3.py
 │  
-├── graph.py  
-├── requirements.txt  
-└── README.md
+├─ graph.py  
+├─ requirements.txt  
+└─ README.md
 
 Performance Showcase:
 By leveraging local SLMs for pre-processing, we achieved substantial token savings while maintaining high-quality outputs.
@@ -96,3 +96,4 @@ Environment Specifications:
 
 Scale & Throughput Note:
 While the architecture is designed to handle the full 6,648-row FIQA dataset, processing was intentionally limited by local hardware constraints, specifically a VM environment assigned 10GB of RAM. To maintain system stability and manage the memory overhead of running local inference (Ollama/Phi-3) alongside the execution pipeline, testing was performed in iterative batches of 5, 20, and 50 queries across different stages. This modular approach allowed for logic verification and safety-net benchmarking without exceeding the physical hardware limits of the laptop, ensuring the system remains architecturally ready for full-scale deployment on high-performance GPU instances.
+
