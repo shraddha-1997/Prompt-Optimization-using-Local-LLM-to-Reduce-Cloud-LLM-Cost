@@ -13,48 +13,8 @@ llm = OllamaLLM(
 )
 
 
-# Local LLM running via Ollama
-#llm = Ollama(model="mistral")
-'''
-def optimize_prompt(state: dict) -> dict:
-    user_prompt = state["user_prompt"]
-
-    optimized_prompt = llm.invoke(
-        f"{OPTIMIZER_SYSTEM_PROMPT}\n\nUser Query:\n{user_prompt}"
-    ).strip()
-
-    return {
-        "original_prompt": user_prompt,
-        "optimized_prompt": optimized_prompt,
-        "original_tokens": count_tokens(user_prompt),
-        "optimized_tokens": count_tokens(optimized_prompt),
-    }
-'''
-'''
-def optimize_prompt(state: dict) -> dict:
-    user_prompt = state["user_prompt"]
-
-    optimized_prompt = llm.invoke(
-        f"{OPTIMIZER_SYSTEM_PROMPT}\n\nUser Query:\n{user_prompt}"
-    )
-
-    optimized_prompt = optimized_prompt.strip().split("\n")[0]
-
-    return {
-        "original_prompt": user_prompt,
-        "optimized_prompt": optimized_prompt,
-        "original_tokens": count_tokens(user_prompt),
-        "optimized_tokens": count_tokens(optimized_prompt),
-    }
-'''
-
 
 def optimize_prompt(state: dict) -> dict:
-    """
-    Stage 3 LangGraph node
-    Reads 'optimized_query' from Stage 2 output
-    Returns final LLM response
-    """
 
     # USE THE SAME KEY AS STAGE 2
     optimized_query = state["optimized_query"]
@@ -63,3 +23,4 @@ def optimize_prompt(state: dict) -> dict:
     final_response = llm.invoke(optimized_query)
 
     return {"final_response": final_response}
+
