@@ -58,9 +58,12 @@ By leveraging local SLMs for pre-processing, we achieved substantial token savin
 
 ---
 
-| Metric Original (Raw) | Optimized (Phi-3) | Efficiency Gain |
-| Avg. Query Length | 154 chars | 68 chars ~55% Reduction |
+| Metric Original (Raw) | Optimized (Phi-3) | Efficiency Gain |      
+
+| Avg. Query Length | 154 chars | 68 chars ~55% Reduction |             
+
 | Avg. Token Cost | High ($$$) Optimized | ($) Cost-Effective |
+
 
 Installation & Setup:
 Prerequisites
@@ -94,5 +97,6 @@ Environment Specifications:
 
 Scale & Throughput Note:
 While the architecture is designed to handle the full 6,648-row FIQA dataset, processing was intentionally limited by local hardware constraints, specifically a VM environment assigned 10GB of RAM. To maintain system stability and manage the memory overhead of running local inference (Ollama/Phi-3) alongside the execution pipeline, testing was performed in iterative batches of 5, 20, and 50 queries across different stages. This modular approach allowed for logic verification and safety-net benchmarking without exceeding the physical hardware limits of the laptop, ensuring the system remains architecturally ready for full-scale deployment on high-performance GPU instances.
+
 
 
