@@ -84,7 +84,7 @@ Prerequisites
    GROK_API_KEY=your_api_key_here
 
 ## Run the pipeline stages sequentially:
-#Start the optimization and execution pipeline
+Start the optimization and execution pipeline
 python stages/batch_stage1.py
 python stages/ batch_stage2_safety_net.py
 python stages/batch_stage3.py
@@ -98,6 +98,7 @@ Environment Specifications:
 
 ## Scale & Throughput Note:
 While the architecture is designed to handle the full 6,648-row FIQA dataset, processing was intentionally limited by local hardware constraints, specifically a VM environment assigned 10GB of RAM. To maintain system stability and manage the memory overhead of running local inference (Ollama/Phi-3) alongside the execution pipeline, testing was performed in iterative batches of 5, 20, and 50 queries across different stages. This modular approach allowed for logic verification and safety-net benchmarking without exceeding the physical hardware limits of the laptop, ensuring the system remains architecturally ready for full-scale deployment on high-performance GPU instances.
+
 
 
 
