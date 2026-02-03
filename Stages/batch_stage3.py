@@ -1,6 +1,6 @@
-
 import pandas as pd
-from graph import graph
+#from graph import graph
+from graph import stage3_graph as graph
 
 # Load Stage 2 results
 df = pd.read_csv("stage2.1_prompt_optimization_results.csv")
@@ -24,7 +24,7 @@ for _, row in df.iterrows():
 stage3_df = pd.DataFrame(stage3_results)
 
 # Save results
-stage3_df.to_csv("stage3.1.1_final_responses.csv", index=False)
+stage3_df.to_csv("stage3.1.2_final_responses.csv", index=False)
 
-print(" Stage 3 completed successfully. Results saved to stage3_final_responses.csv")
+print(" Stage 3 completed successfully. Results saved to stage3.1.2_final_responses.csv")
 
