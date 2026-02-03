@@ -3,7 +3,7 @@ import pandas as pd
 #from graph import graph
 from graph import stage2_graph as graph
 from optimizer.token_utils import count_tokens
-MAX_QUERIES = 3
+MAX_QUERIES = 10
 results = []
 with open("data/queries.json", "r") as f:
     for i, line in enumerate(f):
